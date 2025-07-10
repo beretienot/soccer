@@ -18,3 +18,7 @@ Run tests with:
 ```bash
 mvn test
 ```
+
+If you prefer Gradle, run `gradle wrapper` or use the provided `gradlew` scripts.
+The required `gradle/wrapper/gradle-wrapper.jar` will be downloaded automatically
+when needed.
