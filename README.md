@@ -19,7 +19,13 @@ Run tests with:
 mvn test
 ```
 
+## Environment
+Create a `.env` file in the project root to supply environment variables when
+running the application locally. The VS Code launch configuration will load
+variables from this file automatically.
+
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
+
 
