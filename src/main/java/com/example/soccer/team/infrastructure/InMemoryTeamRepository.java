@@ -1,4 +1,4 @@
-package com.example.soccer.team.infraestructure;
+package com.example.soccer.team.infrastructure;
 
 import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Repository;

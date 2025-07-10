@@ -1,4 +1,4 @@
-package com.example.soccer.score.infraestructure;
+package com.example.soccer.score.infrastructure;
 
 import com.example.soccer.player.domain.PlayerId;
 import com.example.soccer.score.domain.ScoreEntry;
