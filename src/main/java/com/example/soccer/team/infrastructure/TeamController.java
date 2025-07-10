@@ -1,4 +1,4 @@
-package com.example.soccer.team.infraestructure;
+package com.example.soccer.team.infrastructure;
 
 import com.example.soccer.shared.application.CommandBus;
 import com.example.soccer.shared.application.QueryBus;
