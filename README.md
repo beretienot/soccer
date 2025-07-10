@@ -20,7 +20,9 @@ Run tests with:
 ```
 
 The project includes Gradle wrapper scripts, so no local installation is
-required.
+required. An in-memory H2 database is configured by default and can be
+inspected at `/h2-console`. API documentation generated via Swagger is
+available at `/swagger-ui.html` when the application is running.
 
 ## Environment
 Create a `.env` file in the project root to supply environment variables when
