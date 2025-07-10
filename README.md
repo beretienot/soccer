@@ -19,6 +19,17 @@ Run tests with:
 mvn test
 ```
 
+
 If you prefer Gradle, run `gradle wrapper` or use the provided `gradlew` scripts.
 The required `gradle/wrapper/gradle-wrapper.jar` will be downloaded automatically
 when needed.
+
+## Environment
+Create a `.env` file in the project root to supply environment variables when
+running the application locally. The VS Code launch configuration will load
+variables from this file automatically.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+

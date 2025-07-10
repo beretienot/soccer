@@ -1,2 +1,5 @@
 # Ignore Gradle wrapper JAR
 gradle/wrapper/gradle-wrapper.jar
+target/
+.env
+main
