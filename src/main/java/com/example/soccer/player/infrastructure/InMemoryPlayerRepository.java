@@ -5,11 +5,13 @@ import com.example.soccer.player.domain.PlayerId;
 import com.example.soccer.player.domain.PlayerRepository;
 import com.example.soccer.team.domain.TeamId;
 
+import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Repository;
 
 import java.util.*;
 
 @Repository
+@Profile("inmemory")
 public class InMemoryPlayerRepository implements PlayerRepository {
 
     private final Map<PlayerId, Player> players = new HashMap<>();

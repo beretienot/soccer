@@ -1,5 +1,6 @@
 package com.example.soccer.team.infrastructure;
 
+import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Repository;
 
@@ -10,6 +11,7 @@ import com.example.soccer.team.domain.TeamRepository;
 import java.util.*;
 
 @Component
+@Profile("inmemory")
 public class InMemoryTeamRepository implements TeamRepository {
 
     private final Map<TeamId, Team> teams = new HashMap<>();
