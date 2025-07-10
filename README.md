@@ -9,20 +9,18 @@ Domain entities now use small value objects for identifiers to better express in
 - **Scores**: Provides standings and top scorer tables.
 
 ## Build and Run
-Use Maven to build and run the project:
+Use Gradle to build and run the project:
 ```bash
-mvn spring-boot:run
+./gradlew bootRun
 ```
 
 Run tests with:
 ```bash
-mvn test
+./gradlew test
 ```
 
-
-If you prefer Gradle, run `gradle wrapper` or use the provided `gradlew` scripts.
-The required `gradle/wrapper/gradle-wrapper.jar` will be downloaded automatically
-when needed.
+The project includes Gradle wrapper scripts, so no local installation is
+required.
 
 ## Environment
 Create a `.env` file in the project root to supply environment variables when
