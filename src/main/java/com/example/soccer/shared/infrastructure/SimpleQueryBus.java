@@ -1,4 +1,4 @@
-package com.example.soccer.shared.infraestructure;
+package com.example.soccer.shared.infrastructure;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.stereotype.Component;
