@@ -7,6 +7,7 @@ Domain entities now use small value objects for identifiers to better express in
 - **Teams**: Manage team creation and listing.
 - **Players**: Register players for teams.
 - **Scores**: Provides standings and top scorer tables.
+  Access top scorers via `/scores/top-scorers` or its Spanish alias `/scores/goleadores`.
 
 ## Build and Run
 Use Gradle to build and run the project:

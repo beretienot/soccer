@@ -32,4 +32,12 @@ public class ScoreController {
     public ResponseEntity<List<ScoreEntry>> topScorers() {
         return ResponseEntity.ok(queryBus.dispatch(new GetTopScorersQuery()));
     }
+
+    /**
+     * Spanish alias for {@link #topScorers()} to list goal leaders.
+     */
+    @GetMapping("/goleadores")
+    public ResponseEntity<List<ScoreEntry>> goleadores() {
+        return topScorers();
+    }
 }
